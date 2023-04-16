@@ -6,7 +6,6 @@
 //  * 2) 2.1x+.55y=5.9 
 //  * (Assume Cramer’s rule to solve equation ax+by=e x=ed-bf/ad-bc cx+dy=f y=af-ec/ad-bc )
 // */
-
 public class C02_SolvingExpretattion {
     public static void main(String[] args) {
 
@@ -20,12 +19,10 @@ public class C02_SolvingExpretattion {
         double dx = c1 * y2 -  y1 * c2;
         double dy = x1 * c2 - x2 * c1;
 
-        System.out.println("System of equations has a unique solutions");
+       
         double x = dx / d;
         double y = dy / d;
         System.out.println("X: " + x + " Y: " + y);
-        System.out.println("X: " + x + " Y: " + y);
-
     }
 }
 // // Output:
